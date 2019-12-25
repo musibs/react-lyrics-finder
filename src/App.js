@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/layout/Navbar';
 import Index from './components/layout/Index';
+import Lyrics from './components/tracks/Lyrics';
+
 import { Provider } from './Context';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -16,6 +18,7 @@ function App() {
       <div className="container">
         <Switch>
           <Route exact path="/" component={Index} />
+          <Route exact path="/lyrics/track/:id" component={Lyrics} />
         </Switch>
       </div>
     </React.Fragment>
