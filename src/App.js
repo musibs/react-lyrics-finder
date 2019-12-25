@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/layout/Navbar';
 import Index from './components/layout/Index';
 import { Provider } from './Context';
+import 'font-awesome/css/font-awesome.min.css';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
