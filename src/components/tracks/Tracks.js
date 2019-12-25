@@ -8,7 +8,7 @@ class Tracks extends Component {
                 {
                     value => {
                         console.log(value);
-                        return <h1>Tracks</h1>
+                        return <h1>{value.heading}</h1>
                     }
                 }
             </Consumer>
